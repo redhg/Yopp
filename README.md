@@ -24,7 +24,7 @@ You can forget about this and use **Yopp** instead:
 
 Installation
 ----
-Create a folder on your server and put `index.php` there, that's it!
+Create a folder on your server and put `index.php` there, that's it! (Don't forget to give write permission to this folder).
 
 How does it work?
 ----
@@ -32,6 +32,22 @@ How does it work?
 * Only **one** file will stay on the server, so each time you upload a new file, the previous file will be deleted.
 
 * By default, the file will be deleted on server after it has been downloaded once.
+
+Minimalist UX
+----
+
+This tool requires a **total number of 7 actions** to get the work done:
+
+    Open browser on phone [1 tap], Open page [1 tap if in bookmarks], UPLOAD [1 tap], Choose the file [1 action]
+    Open browser on computer [1 double click], Open page [1 click if in bookmarks], DOWNLOAD [1 click]
+    
+I'll be happy to switch to another tool if one requiring less actions exists.
+
+I noticed that my likelihood/probability to use any tool (all other things being equal) is more or less proportional to:
+
+    P = 1 / a^2
+    
+where `a` is the number of required actions/user inputs. If the number of required actions is doubled, the likelihood to use the tool is divided by 4!
 
 
 What about security?
